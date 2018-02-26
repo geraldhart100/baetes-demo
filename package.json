@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^2.1.0",
+    "three": "^0.90.0"
+  }
+}
