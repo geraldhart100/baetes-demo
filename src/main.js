@@ -20,7 +20,7 @@ const HEIGHT = window.innerHeight
 const scene = new Scene()
 
 
-const camera = new PerspectiveCamera()
+const camera = new PerspectiveCamera(75, WIDTH / HEIGHT)
 camera.position.set(2, 2, 2)
 
 
